@@ -16,6 +16,7 @@
 		6C135407272367DB00849002 /* lectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135406272367DB00849002 /* lectorTests.swift */; };
 		6C135411272367DB00849002 /* lectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135410272367DB00849002 /* lectorUITests.swift */; };
 		6C135413272367DB00849002 /* lectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135412272367DB00849002 /* lectorUITestsLaunchTests.swift */; };
+		6C1354292723726000849002 /* Funciones_Generales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1354282723726000849002 /* Funciones_Generales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6C13540C272367DB00849002 /* lectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C135410272367DB00849002 /* lectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lectorUITests.swift; sourceTree = "<group>"; };
 		6C135412272367DB00849002 /* lectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C1354282723726000849002 /* Funciones_Generales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funciones_Generales.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6C1353EE272367D800849002 /* lector */ = {
 			isa = PBXGroup;
 			children = (
+				6C1354272723721500849002 /* extensiones */,
 				6C1353EF272367D800849002 /* AppDelegate.swift */,
 				6C1353F1272367D800849002 /* SceneDelegate.swift */,
 				6C1353F3272367D800849002 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				6C135412272367DB00849002 /* lectorUITestsLaunchTests.swift */,
 			);
 			path = lectorUITests;
+			sourceTree = "<group>";
+		};
+		6C1354272723721500849002 /* extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				6C1354282723726000849002 /* Funciones_Generales.swift */,
+			);
+			path = extensiones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				6C1353F4272367D800849002 /* ViewController.swift in Sources */,
 				6C1353F0272367D800849002 /* AppDelegate.swift in Sources */,
 				6C1353F2272367D800849002 /* SceneDelegate.swift in Sources */,
+				6C1354292723726000849002 /* Funciones_Generales.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
